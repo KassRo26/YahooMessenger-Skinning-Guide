@@ -1,4 +1,8 @@
-# [Press here to get to the guide directly.(Opens template-guide.md)](template-guide.md)
+# Quick links to guides:
+
+- [Guide based on an empty template (No textures, only .xml files)](template-guide.md)
+- [Guide based on an existing skin (Textures, .xml files, example skin(s))](skin-guide.md)
+
 
 ## Yahoo!Messenger
 

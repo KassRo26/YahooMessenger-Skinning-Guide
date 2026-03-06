@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kasane Teto — Color Palette</title>
+<style>
+/* ========== Kasane Teto – colors.xml ========== */
+
+:root { 
+  /* ── syscolors ── */
+  --3dshadow:                    #887EA4;
+  --3dhighlight:                 #887EA4;
+  --border:                      rgb(94,114,139);
+  --caption_text:                #FF0000;
+  --caption_inactive:            #0000FF;
+  --caption_inactive_text:       #FF00FF;
+  --dialog:                      rgb(217,87,112);
+  --dialog_text:                 #F3F3F3;
+  --disabled_text:               #9EA1C4;
+  --hot_text:                    #F3F3F3;
+  --menu:                        #E2E9F1;
+  --menu_text:                   #CCCCCC;
+  --selection:                   #9D4A5E;
+  --selection_text:              #F3F3F3;
+  --window:                      #FFFFFF;
+  --window_text:                 #7E7E7E;
+  --window_frame:                rgb(94,114,139);
+
+  /* ── colors ── */
+  --search_g1:                   #F3F3F3;
+  --search_g2:                   #E2E2E2;
+  --sc_border_color:             #9D9E9F;
+  --fw_bordercolor:              #F3F3F3;
+  --lvrow_n:                     #F3F3F3;
+  --lvrow_a:                     #F4F6FA;
+  --lv_selcolor:                 #CBDDF9;
+  --lv_seltextcolor:             #343233;
+  --lv_insertline:               #6A6A6A;
+  --nplvrow_n:                   #F3F3F3;
+  --nplvrow_a:                   #F4F6FA;
+  --back:                        rgb(133,3,35);
+  --frame_h:                     #F3F3F3;
+  --frame_shadow:                #B3B6B0;
+  --text:                        #CCCCCC;
+  --text_d:                      #666666;
+  --text_s:                      rgb(133,3,35);
+  --groupbox_border:             #B3B6B0;
+  --groupbox:                    #EFF0E6;
+  --button:                      #F3F3F3;
+  --button_h:                    #F3F3F3;
+  --button_dh:                   #999999;
+  --button_ds:                   #999999;
+  --menuitem:                    #333333;
+  --menuitem_b:                  #999999;
+  --menuitem_h:                  #F3F3F3;
+  --menuitem_d:                  #999999;
+  --menuitem_dh:                 #CCCCCC;
+  --menubar_color:               #F3F3F3;
+  --menubar_h:                   #F3F3F3;
+  --menubar_p:                   #F3F3F3;
+  --statusbar:                   #000000;
+  --tab:                         #999999;
+  --tab_h:                       #F3F3F3;
+  --tab_p:                       #F3F3F3;
+  --toolbar_h:                   #F3F3F3;
+  --toolbar_ds:                  #7A8180;
+  --toolbar_dh:                  #F3F3F3;
+  --toolbar:                     #CCCCCC;
+  --toolbar_border:              rgb(133,3,35);
+  --header:                      #000000;
+  --header_h:                    #001D71;
+  --header_ph:                   #F3F3F3;
+  --header_dh:                   #F3F3F3;
+  --header_ds:                   #7A8180;
+  --control_hb:                  #EFF0E6;
+  --control_ht:                  #000000;
+  --control_fb:                  #9D4A5E;
+  --control_ft:                  #F3F3F3;
+  --control_nb:                  #FFFFFF;
+  --control_db:                  #F3F3F3;
+  --control_dt:                  #666666;
+  --billing_bkgnd:               #FFFFCC;
+  --dnd_bkgnd:                   #FFFFCC;
+  --slot_caption_border:         #666666;
+  --slot_caption_divider:        #CCCCCC;
+  --slot_border_gap:             #4A0000;
+  --slot_caption_font_color:     #333333;
+  --slot_caption_shadow_font:    #F3F3F3;
+  --backcolor:                   rgb(217,87,112);
+  --mainwndbackcolor:            rgb(217,87,112);
+  --searchareabackcolor:         rgb(217,87,112);
+  --defaulttextcolor:            #F3F3F3;
+  --hovertextcolor:              rgb(63,134,207);
+  --disabledtextcolor:           rgb(120,120,120);
+  --cctextcolor:                 rgb(60,75,82);
+  --cchovertextcolor:            rgb(63,134,207);
+  --ccdisabledtextcolor:         rgb(120,120,120);
+  --phonetextcolor:              rgb(144,144,144);
+  --phonelabeltextcolor:         rgb(144,144,144);
+  --phonehovertextcolor:         rgb(144,144,144);
+  --phonedisabledtextcolor:      rgb(144,144,144);
+  --displaynametextcolor:        rgb(243,243,243);
+  --defaultshadowcolor:          #F3F3F3;
+  --activecaption:               #F3F3F3;
+  --itactivecaption:             #999999;
+  --activemaincaption:           #F3F3F3;
+  --itactivemaincaption:         #999999;
+  --text_dim:                    #999999;
+  --friend_list_group_bkgnd:     rgb(255,255,255);
+  --text_status_default:         #666666;
+  --text_vitality:               #41AEE5;
+  --text_hyperlink:              #41AEE5;
+  --text_user_hyperlink:         #576CD7;
+  --widget_group_header:         #9D4A5E;
+  --list_view_selection_bkgnd:   rgb(189,189,189);
+  --menubartext:                 #BEBEBE;
+  --menubartext_h:               #F3F3F3;
+  --menubartext_d:               #999999;
+  --menubartext_p:               #F3F3F3;
+  --mainmenubartext:             #BEBEBE;
+  --mainmenubartext_h:           #F3F3F3;
+  --mainmenubartext_d:           #999999;
+  --mainmenubartext_p:           #F3F3F3;
+  --textadcolor:                 rgb(255,255,255);
+}
+
+/* ========== Layout ========== */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: .25rem;
+  color: #f3f3f3;
+}
+
+.subtitle {
+  text-align: center;
+  color: #999;
+  margin-bottom: 2rem;
+  font-size: .9rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid #333;
+  color: #ccc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.swatch {
+  border-radius: 8px;
+  overflow: hidden;
+  background: #252540;
+  box-shadow: 0 2px 6px rgba(0,0,0,.4);
+  transition: transform .15s;
+}
+.swatch:hover { transform: translateY(-2px); }
+
+.swatch .color-block {
+  height: 72px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 8px 8px 0 0;
+}
+
+.swatch .info {
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.swatch .id {
+  font-weight: 600;
+  font-size: .82rem;
+  color: #ddd;
+  word-break: break-all;
+}
+
+.swatch .hex {
+  font-family: 'Cascadia Code', 'Consolas', monospace;
+  font-size: .78rem;
+  color: #aaa;
+}
+
+.swatch .comment {
+  font-size: .72rem;
+  color: #777;
+  font-style: italic;
+  line-height: 1.3;
+}
+</style>
+</head>
+<body>
+
+<h1>Kasane Teto — Color Palette</h1>
+<p class="subtitle">colors.xml &mdash; Yahoo! Messenger Skin</p>
+
+<!-- ═══════════════ SYSCOLORS ═══════════════ -->
+<h2>System Colors (syscolors)</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#887EA4"></div>
+    <div class="info">
+      <span class="id">3dshadow</span>
+      <span class="hex">#887EA4</span>
+      <span class="comment">TextHost, sunken border</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#887EA4"></div>
+    <div class="info">
+      <span class="id">3dhighlight</span>
+      <span class="hex">#887EA4</span>
+      <span class="comment">TextHost, sunken border</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(94,114,139)"></div>
+    <div class="info">
+      <span class="id">border</span>
+      <span class="hex">rgb(94, 114, 139)</span>
+      <span class="comment">Toolbar separator</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#FF0000"></div>
+    <div class="info">
+      <span class="id">caption_text</span>
+      <span class="hex">#FF0000</span>
+      <span class="comment">Caption text color</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#0000FF"></div>
+    <div class="info">
+      <span class="id">caption_inactive</span>
+      <span class="hex">#0000FF</span>
+      <span class="comment">Inactive caption</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#FF00FF"></div>
+    <div class="info">
+      <span class="id">caption_inactive_text</span>
+      <span class="hex">#FF00FF</span>
+      <span class="comment">Inactive caption text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(217,87,112)"></div>
+    <div class="info">
+      <span class="id">dialog</span>
+      <span class="hex">rgb(217, 87, 112) &nbsp;≈&nbsp; #D95770</span>
+      <span class="comment">Login panel, banner ad &amp; status msg bg</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">dialog_text</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Category / selected text &amp; title</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#9EA1C4"></div>
+    <div class="info">
+      <span class="id">disabled_text</span>
+      <span class="hex">#9EA1C4</span>
+      <span class="comment">Disabled buttons, menu text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">hot_text</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Toolbar / menu / tab highlight text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#E2E9F1"></div>
+    <div class="info">
+      <span class="id">menu</span>
+      <span class="hex">#E2E9F1</span>
+      <span class="comment">Menu background</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#CCCCCC"></div>
+    <div class="info">
+      <span class="id">menu_text</span>
+      <span class="hex">#CCCCCC</span>
+      <span class="comment">Drop-down menu text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#9D4A5E"></div>
+    <div class="info">
+      <span class="id">selection</span>
+      <span class="hex">#9D4A5E</span>
+      <span class="comment">Group name, pref highlight on hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">selection_text</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Pref category text on hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#FFFFFF"></div>
+    <div class="info">
+      <span class="id">window</span>
+      <span class="hex">#FFFFFF</span>
+      <span class="comment">Input fields &amp; IM send field bg</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#7E7E7E"></div>
+    <div class="info">
+      <span class="id">window_text</span>
+      <span class="hex">#7E7E7E</span>
+      <span class="comment">Pref, chat room, plug-ins text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(94,114,139)"></div>
+    <div class="info">
+      <span class="id">window_frame</span>
+      <span class="hex">rgb(94, 114, 139)</span>
+      <span class="comment">Window frame</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════ COLORS ═══════════════ -->
+<h2>Colors — Search &amp; List View</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">search_g1</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#E2E2E2"></div>
+    <div class="info">
+      <span class="id">search_g2</span>
+      <span class="hex">#E2E2E2</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#9D9E9F"></div>
+    <div class="info">
+      <span class="id">sc_border_color</span>
+      <span class="hex">#9D9E9F</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">fw_bordercolor</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">lvrow_n</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F4F6FA"></div>
+    <div class="info">
+      <span class="id">lvrow_a</span>
+      <span class="hex">#F4F6FA</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#CBDDF9"></div>
+    <div class="info">
+      <span class="id">lv_selcolor</span>
+      <span class="hex">#CBDDF9</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#343233"></div>
+    <div class="info">
+      <span class="id">lv_seltextcolor</span>
+      <span class="hex">#343233</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#6A6A6A"></div>
+    <div class="info">
+      <span class="id">lv_insertline</span>
+      <span class="hex">#6A6A6A</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">nplvrow_n</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F4F6FA"></div>
+    <div class="info">
+      <span class="id">nplvrow_a</span>
+      <span class="hex">#F4F6FA</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Frame, Text &amp; Groups</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(133,3,35)"></div>
+    <div class="info">
+      <span class="id">back</span>
+      <span class="hex">rgb(133, 3, 35) &nbsp;≈&nbsp; #850323</span>
+      <span class="comment">Login panel smiley &amp; search bg</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">frame_h</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#B3B6B0"></div>
+    <div class="info">
+      <span class="id">frame_shadow</span>
+      <span class="hex">#B3B6B0</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#CCCCCC"></div>
+    <div class="info">
+      <span class="id">text</span>
+      <span class="hex">#CCCCCC</span>
+      <span class="comment">Pref, chat room, plug-ins text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#666666"></div>
+    <div class="info">
+      <span class="id">text_d</span>
+      <span class="hex">#666666</span>
+      <span class="comment">Disabled text (label)</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(133,3,35)"></div>
+    <div class="info">
+      <span class="id">text_s</span>
+      <span class="hex">rgb(133, 3, 35) &nbsp;≈&nbsp; #850323</span>
+      <span class="comment">Disabled text shadow/highlight</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#B3B6B0"></div>
+    <div class="info">
+      <span class="id">groupbox_border</span>
+      <span class="hex">#B3B6B0</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#EFF0E6"></div>
+    <div class="info">
+      <span class="id">groupbox</span>
+      <span class="hex">#EFF0E6</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Buttons</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">button</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Button text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">button_h</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Button text — hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">button_dh</span>
+      <span class="hex">#999999</span>
+      <span class="comment">Button text — disabled</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">button_ds</span>
+      <span class="hex">#999999</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Menu Items</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#333333"></div>
+    <div class="info">
+      <span class="id">menuitem</span>
+      <span class="hex">#333333</span>
+      <span class="comment">Drop-down menu text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">menuitem_b</span>
+      <span class="hex">#999999</span>
+      <span class="comment">Menu text — disabled</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">menuitem_h</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Menu text — hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">menuitem_d</span>
+      <span class="hex">#999999</span>
+      <span class="comment">Menu disabled text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#CCCCCC"></div>
+    <div class="info">
+      <span class="id">menuitem_dh</span>
+      <span class="hex">#CCCCCC</span>
+      <span class="comment">Menu disabled text — hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">menubar</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">menubar_h</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">menubar_p</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Tabs, Toolbar &amp; Headers</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#000000"></div>
+    <div class="info">
+      <span class="id">statusbar</span>
+      <span class="hex">#000000</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">tab</span>
+      <span class="hex">#999999</span>
+      <span class="comment">Tab text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">tab_h</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Tab text — hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">tab_p</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Tab text — selected</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">toolbar_h</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#7A8180"></div>
+    <div class="info">
+      <span class="id">toolbar_ds</span>
+      <span class="hex">#7A8180</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">toolbar_dh</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#CCCCCC"></div>
+    <div class="info">
+      <span class="id">toolbar</span>
+      <span class="hex">#CCCCCC</span>
+      <span class="comment">Popup toolbar label text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(133,3,35)"></div>
+    <div class="info">
+      <span class="id">toolbar_border</span>
+      <span class="hex">rgb(133, 3, 35) &nbsp;≈&nbsp; #850323</span>
+      <span class="comment">IM / text format background</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#000000"></div>
+    <div class="info">
+      <span class="id">header</span>
+      <span class="hex">#000000</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#001D71"></div>
+    <div class="info">
+      <span class="id">header_h</span>
+      <span class="hex">#001D71</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">header_ph</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">header_dh</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#7A8180"></div>
+    <div class="info">
+      <span class="id">header_ds</span>
+      <span class="hex">#7A8180</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Controls</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#EFF0E6"></div>
+    <div class="info">
+      <span class="id">control_hb</span>
+      <span class="hex">#EFF0E6</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#000000"></div>
+    <div class="info">
+      <span class="id">control_ht</span>
+      <span class="hex">#000000</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#9D4A5E"></div>
+    <div class="info">
+      <span class="id">control_fb</span>
+      <span class="hex">#9D4A5E</span>
+      <span class="comment">Pref title bg</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">control_ft</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#FFFFFF"></div>
+    <div class="info">
+      <span class="id">control_nb</span>
+      <span class="hex">#FFFFFF</span>
+      <span class="comment">Contact list &amp; input boxes bg</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">control_db</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#666666"></div>
+    <div class="info">
+      <span class="id">control_dt</span>
+      <span class="hex">#666666</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#FFFFCC"></div>
+    <div class="info">
+      <span class="id">billing_bkgnd</span>
+      <span class="hex">#FFFFCC</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#FFFFCC"></div>
+    <div class="info">
+      <span class="id">dnd_bkgnd</span>
+      <span class="hex">#FFFFCC</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Slots (Plug-in Modules)</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#666666"></div>
+    <div class="info">
+      <span class="id">slot-caption-border</span>
+      <span class="hex">#666666</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#CCCCCC"></div>
+    <div class="info">
+      <span class="id">slot-caption-divider</span>
+      <span class="hex">#CCCCCC</span>
+      <span class="comment">Title bar divider</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#4A0000"></div>
+    <div class="info">
+      <span class="id">slot-border-gap</span>
+      <span class="hex">#4A0000</span>
+      <span class="comment">Plug-in module gap</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#333333"></div>
+    <div class="info">
+      <span class="id">slot-caption-font-color</span>
+      <span class="hex">#333333</span>
+      <span class="comment">Module title</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">slot-caption-shadow-font-color</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Module slide-out title</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Backgrounds</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(217,87,112)"></div>
+    <div class="info">
+      <span class="id">backcolor</span>
+      <span class="hex">rgb(217, 87, 112) &nbsp;≈&nbsp; #D95770</span>
+      <span class="comment">Background color</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(217,87,112)"></div>
+    <div class="info">
+      <span class="id">mainwndbackcolor</span>
+      <span class="hex">rgb(217, 87, 112) &nbsp;≈&nbsp; #D95770</span>
+      <span class="comment">Me panel &amp; IM wnd background</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(217,87,112)"></div>
+    <div class="info">
+      <span class="id">searchareabackcolor</span>
+      <span class="hex">rgb(217, 87, 112) &nbsp;≈&nbsp; #D95770</span>
+      <span class="comment">Search area background</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Text Styles</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">defaulttextcolor</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">IM wnd user ID text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(63,134,207)"></div>
+    <div class="info">
+      <span class="id">hovertextcolor</span>
+      <span class="hex">rgb(63, 134, 207) &nbsp;≈&nbsp; #3F86CF</span>
+      <span class="comment">Link color</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(120,120,120)"></div>
+    <div class="info">
+      <span class="id">disabledtextcolor</span>
+      <span class="hex">rgb(120, 120, 120) &nbsp;≈&nbsp; #787878</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(60,75,82)"></div>
+    <div class="info">
+      <span class="id">cctextcolor</span>
+      <span class="hex">rgb(60, 75, 82) &nbsp;≈&nbsp; #3C4B52</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(63,134,207)"></div>
+    <div class="info">
+      <span class="id">cchovertextcolor</span>
+      <span class="hex">rgb(63, 134, 207) &nbsp;≈&nbsp; #3F86CF</span>
+      <span class="comment">Link color</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(120,120,120)"></div>
+    <div class="info">
+      <span class="id">ccdisabledtextcolor</span>
+      <span class="hex">rgb(120, 120, 120) &nbsp;≈&nbsp; #787878</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(144,144,144)"></div>
+    <div class="info">
+      <span class="id">phonetextcolor</span>
+      <span class="hex">rgb(144, 144, 144) &nbsp;≈&nbsp; #909090</span>
+      <span class="comment">PSTN balance/forward text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(144,144,144)"></div>
+    <div class="info">
+      <span class="id">phonelabeltextcolor</span>
+      <span class="hex">rgb(144, 144, 144) &nbsp;≈&nbsp; #909090</span>
+      <span class="comment">Forward feature drop-down text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(144,144,144)"></div>
+    <div class="info">
+      <span class="id">phonehovertextcolor</span>
+      <span class="hex">rgb(144, 144, 144) &nbsp;≈&nbsp; #909090</span>
+      <span class="comment">PSTN text — hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(144,144,144)"></div>
+    <div class="info">
+      <span class="id">phonedisabledtextcolor</span>
+      <span class="hex">rgb(144, 144, 144) &nbsp;≈&nbsp; #909090</span>
+      <span class="comment">PSTN text — disabled</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(243,243,243)"></div>
+    <div class="info">
+      <span class="id">displaynametextcolor</span>
+      <span class="hex">rgb(243, 243, 243) &nbsp;≈&nbsp; #F3F3F3</span>
+      <span class="comment">Contact card user ID</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">text_dim</span>
+      <span class="hex">#999999</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#666666"></div>
+    <div class="info">
+      <span class="id">text_status_default</span>
+      <span class="hex">#666666</span>
+      <span class="comment">Status message default text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#41AEE5"></div>
+    <div class="info">
+      <span class="id">text_vitality</span>
+      <span class="hex">#41AEE5</span>
+      <span class="comment">Network link color (Buzz…)</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#41AEE5"></div>
+    <div class="info">
+      <span class="id">text_hyperlink</span>
+      <span class="hex">#41AEE5</span>
+      <span class="comment">Messenger link color</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#576CD7"></div>
+    <div class="info">
+      <span class="id">text_user_hyperlink</span>
+      <span class="hex">#576CD7</span>
+      <span class="comment">User link color (status)</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Captions &amp; Misc</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">defaultshadowcolor</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">activecaption</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">itactivecaption</span>
+      <span class="hex">#999999</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">activemaincaption</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Wnd caption bar text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">itactivemaincaption</span>
+      <span class="hex">#999999</span>
+      <span class="comment">Caption bar text — deactivated</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(255,255,255)"></div>
+    <div class="info">
+      <span class="id">friend_list_group_bkgnd_gradient</span>
+      <span class="hex">rgb(255, 255, 255) &nbsp;≈&nbsp; #FFFFFF</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#9D4A5E"></div>
+    <div class="info">
+      <span class="id">widget_group_header</span>
+      <span class="hex">#9D4A5E</span>
+      <span class="comment">Group name color</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(189,189,189)"></div>
+    <div class="info">
+      <span class="id">list_view_selection_bkgnd</span>
+      <span class="hex">rgb(189, 189, 189) &nbsp;≈&nbsp; #BDBDBD</span>
+      <span class="comment">Compact view selected contact</span>
+    </div>
+  </div>
+
+</div>
+
+<h2>Colors — Menu Bar Text</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="color-block" style="background:#BEBEBE"></div>
+    <div class="info">
+      <span class="id">menubartext</span>
+      <span class="hex">#BEBEBE</span>
+      <span class="comment">IM wnd top navigation text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">menubartext_h</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">IM wnd nav text — hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">menubartext_d</span>
+      <span class="hex">#999999</span>
+      <span class="comment">IM wnd nav text — deactivated</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">menubartext_p</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#BEBEBE"></div>
+    <div class="info">
+      <span class="id">mainmenubartext</span>
+      <span class="hex">#BEBEBE</span>
+      <span class="comment">Main wnd top navigation text</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">mainmenubartext_h</span>
+      <span class="hex">#F3F3F3</span>
+      <span class="comment">Main wnd nav text — hover</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#999999"></div>
+    <div class="info">
+      <span class="id">mainmenubartext_d</span>
+      <span class="hex">#999999</span>
+      <span class="comment">Main wnd nav text — deactivated</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:#F3F3F3"></div>
+    <div class="info">
+      <span class="id">mainmenubartext_p</span>
+      <span class="hex">#F3F3F3</span>
+    </div>
+  </div>
+
+  <div class="swatch">
+    <div class="color-block" style="background:rgb(255,255,255)"></div>
+    <div class="info">
+      <span class="id">textadcolor</span>
+      <span class="hex">rgb(255, 255, 255) &nbsp;≈&nbsp; #FFFFFF</span>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
