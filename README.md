@@ -39,4 +39,8 @@ If you need help with anything you think I can do, you can find me in these plac
 - Stoat - KassRo#7261
 - Yahoo!Messenger - kassro
 
+Updates:
+
+- 07.03.2026 - Added a new type of guide, based on an existing skin.
+
 
